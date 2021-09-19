@@ -1,0 +1,14 @@
+{
+  "mount": {
+    "dist": "/",
+    "src": "/"
+  },
+  "plugins": ["@snowpack/plugin-svelte", "@snowpack/plugin-sass"],
+  "devOptions": {
+    "open": "none"
+  },
+  "packageOptions": {
+    "polyfillNode": true,
+    "knownEntrypoints": ["svelte", "svelte/store", "svelte/transition"]
+  }
+}

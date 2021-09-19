@@ -1,0 +1,32 @@
+{
+  "name": "random-password-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "bootstrap": "^5.1.1",
+    "copy-to-clipboard": "^3.3.1",
+    "crypto": "^1.0.1",
+    "generate-password-browser": "^1.1.0",
+    "jquery": "^3.6.0",
+    "svelte": "^3.42.6",
+    "svelte-loader": "^3.1.2",
+    "svelte-preprocess": "^4.9.4",
+    "sveltestrap": "^5.6.3"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-sass": "^1.4.0",
+    "@snowpack/plugin-svelte": "^3.7.0",
+    "snowpack": "^3.8.8",
+    "svelte-preprocess": "^4.9.4"
+  }
+}
